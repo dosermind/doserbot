@@ -1,5 +1,5 @@
 /**
- * Module Imports
+ * [IMPORT] Config/Modules
  */
 const discord = require("discord.js");
 const client = new discord.Client({ disableEveryone: true, disabledEvents: ["TYPING_START"] });
@@ -13,10 +13,10 @@ client.prefix = PREFIX;
 client.queue = new Map();
 
 /**
- * Client Events
+ * [IMPORT] Console Logs
  */
 client.on("ready", () => {
-	console.log(`${client.user.username} ready!`);
+	console.log(`\n\n${client.user.username} is online!\nGitHub: https://github.com/dosermind/doserbot\n\n Ty for using me`);
 	client.user.setActivity(`github.com/dosermind | ${PREFIX}`);
 });
 client.on("warn", info => console.log(info));
@@ -24,12 +24,13 @@ client.on("error", console.error);
 
 
 /**
- * Import all commands
+ * [IMPORT] Commands
  */
 const commandFiles = readdirSync(join(__dirname, "commands")).filter(file => file.endsWith(".js"));
 for (const file of commandFiles) {
   const command = require(join(__dirname, "commands", `${file}`));
   client.commands.set(command.name, command);
+  console.log(`[START] ${command.name}`);
 }
 
 client.on("message", async message => {
