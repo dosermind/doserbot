@@ -8,11 +8,14 @@
 ```json
 {
 	"TOKEN": "YOUR BOT TOKEN", 
-	"YOUTUBE_API_KEY": "YOUR YT API",  (https://developers.google.com/youtube/v3/getting-started?hl=pt-PT)
+	"YOUTUBE_API_KEY": "YOUR YT API", 
 	"MAX_PLAYLIST_SIZE": 10, MAX YT PLAYLIST SIZE
 	"PREFIX": "PREFIX"
 }
 ```
+###FOR NOOBS
+NODE JS: https://nodejs.org/en/download/
+YT API: https://developers.google.com/youtube/v3/getting-started?hl=pt-PT
 
-### SUPPORT
+#### NEED HELP?
 Join my discord: https://discord.gg/UFbVtWF
