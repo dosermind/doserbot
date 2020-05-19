@@ -15,7 +15,7 @@
 ```
 ### FOR NOOBS
 NODE JS: https://nodejs.org/en/download/   
-YT API: https://developers.google.com/youtube/v3/getting-started?hl=pt-PT   
+YT API: https://developers.google.com/youtube/v3/getting-started?hl=eng-us  
 
 #### NEED HELP?
 Join my discord: https://discord.gg/UFbVtWF
