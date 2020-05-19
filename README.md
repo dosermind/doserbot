@@ -1,6 +1,6 @@
 
 # HOW TO HELP?
- > FORK IT AND MAKE YOUR OWN CHANGES
+ > FORK IT AND MAKE YOUR OWN CHANGES   
 
 ## Configuration
 
@@ -14,8 +14,8 @@
 }
 ```
 ### FOR NOOBS
-NODE JS: https://nodejs.org/en/download/
-YT API: https://developers.google.com/youtube/v3/getting-started?hl=pt-PT
+NODE JS: https://nodejs.org/en/download/   
+YT API: https://developers.google.com/youtube/v3/getting-started?hl=pt-PT   
 
 #### NEED HELP?
 Join my discord: https://discord.gg/UFbVtWF
