@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
 module.exports = {
   name: "ban",
   description: "Ban user",
@@ -18,5 +17,6 @@ if (!kickMemver) { return message.channel.send('User not found!'); }
 }
 else
   message.channel.send('[ERROR] NO PERMISSION');
-  }
+  console.log(message.author.username + " banned " + member.displayName);  
+}
 }
