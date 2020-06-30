@@ -15,7 +15,6 @@ module.exports = {
         argsresult = args.join(" ")
         message.channel.send(argsresult)
     }
-    console.log(message.author);
     console.log(message.author.username + " used the .say to say > " + argsresult);
   }
 }

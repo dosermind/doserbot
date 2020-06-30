@@ -13,10 +13,11 @@ if (!kickMemver) { return message.channel.send('User not found!'); }
 
      kickMemver.ban().then((member) => {
           message.channel.send(member.displayName + " has been successfully banned by a moderator");
+          console.log(message.author.username + " banned " + member.displayName);
       })
 }
 else
   message.channel.send('[ERROR] NO PERMISSION');
-  console.log(message.author.username + " banned " + member.displayName);  
+  
 }
 }
